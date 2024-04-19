@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheets" href="mediaqueries.css">
+    <link rel="stylesheet" href="mediaqueries.css">
    <title>Karolina Machnik | portfolio </title>
 </head>
 <body>
@@ -19,6 +19,119 @@
             </ul>
         </div>
     </nav>
+    <nav id="mobile-nav">
+        <div class="logo">Karolina Machnik</div>
+        <div>
+            <div class="mobile-menu">
+                <div class="mobile-menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="hero">
+      <div class="hero-container">
+
+            <div class="hero-text">
+                <h1 class="title">Hello, I'm Karolina</h1>
+                <p class="hero-text-p">Passionate <span class="highlighter">Front-End Developer</span> dedicated to crafting user-friendly products and learning new skills. </p>
+                <div class="button-container">
+                    <button class="button button-color" onclick="window.open('./media/CV_Karolina_Machnik_eng.pdf')">See My Resume</button>
+                    <button class="button button-color" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+            </div>
+            <div class="hero-pic-container">
+                <img id="pic" src="./media/profile-pic.png" alt="Karolina Machnik profile picture"/>
+            </div>
+
+         
+
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-container">  
+            <h2 class="heading">About Me</h2>
+            <p class="about-p">Hey there! I'm Karolina, but you can just call me Karola! Originally from the vibrant city of Bielsko-Biała in Poland, I've now made Kraków my home sweet home. Nestled amidst its rich culture, myriad attractions, and breathtaking architecture, I believe Kraków is the ultimate playground for experiencing life to the fullest.</p>
+            <p class="about-p">As a graduate in Social Informatics from AGH University, specializing in Design and Product Development, I'm all about crafting innovative solutions. From my intriguing bachelor's thesis, <em class="names">Moodpal - a project of a mood monitoring application for people suffering from depression and experiencing low mood</em>, to my master's <em class="names">Practical application of the design process and heuristics Nielsen in the work of web designers</em>, I thrive on connecting creativity with functionality.</p>
+            <p class="about-p">Currently honing my website coding skills, I blend the art of user experience (UX) design from my academic background with the SEO expertise gained from my current role. In my downtime, you'll find me exploring new locales, experimenting with tantalizing recipes, burying my nose in books, and indulging in the latest TV obsessions—right now, "Ted Lasso" has me hooked for its blend of humor and insight.</p>     
+        </div>
+    </section>
+
+    <section id="experience">
+        
+          <h2 class="heading">My Experience</h2>
+            <div class="experience-container">
+                <div class="experience-element">
+                      <h2>2023 - now</h2>
+                      <h3>Codecademy Courses</h3>
+                      <p>I completed the HTML, CSS, and JavaScript courses on Codecademy. I also gained knowledge about Git, GitHub, SASS, MOCHA, I'm actively pursuing the Front-End Engineer career path course on the same platform, learning more about React, Redux.</p>
+
+                  </div>
+                <div class="experience-element">
+                    <h2>03.2020 - 04.2024</h2>
+                    <h3>Gebuko</h3>
+                    <p>I've worked in various roles within the SEO and content marketing. Starting as SEO intern, I've progressed to become a Junior Content Marketing Specialist and began my journey as Junior SEO Specialist. My responsibilities have encompassed planning positioning campaigns, crafting website content, executing link-building strategies, conducting website audits, offering UX advice, managing copywriters, and generating client reports. Additionally, I've handled WordPress management, keyword-driven content planning, visual content presentation, minor graphic design tasks, and copywriting duties.</p>
+                  
+                </div>
+                <div class="experience-element">
+                    <h2>2020 - 2022</h2>
+                    <h3>AGH UNIVERSITY OF SCIENCE AND TECHNOLOGY</h3>
+                    <p>Master’s degree, Design & Product Development</p>
+                    <p>Thesis: Practical application of the design process and heuristics Nielsen in the work of web designers</p>
+              
+                </div>
+                <div class="experience-element">                
+                      <h2>2017 - 2020</h2>
+                      <h3>AGH UNIVERSITY OF SCIENCE AND TECHNOLOGY</h3>
+                      <p>Bachelor’s degree, Social Informatics</p>
+                      <p>Thesis: Moodpal - a project of a mood monitoring application for people suffering from depression and experiencing low mood</p>
+                      <p><em>Award: Recognition in the first edition of the competition for the best bachelor's and master's thesis in the field of disability sociology.</em></p>
+                  </div>
+              </div>
+          </div>
+  
+    </section>
+
+    <section id="projects">
+        <div class="section-container">  
+          <h2 class="heading">My Projects</h2>
+        </div>
+    </section>
+
+    <section id="contact">
+            <h2 class="heading">Contact Me</h2>
+            <div class="contact-container">
+                <div id="links-container">
+                    <a href="https://www.linkedin.com/in/karolina-machnik/" target="_blank">
+                        <button class="button button-color contact-button">
+                            My LinkedIn Profile
+                        </button>
+                    </a>
+                    <a class="contact-button-a" href="https://github.com/kkmachnik" target="_blank">
+                        <button class="button button-color contact-button">
+                            My GitHub Profile
+                        </button>
+                    </a>
+                </div>
+                <div class="email-box">
+                    <h3>E-mail: machnik.karolina98@gmail.com</h3>
+                </div>
+            </div>
+      
+    </section>
+    <footer>
+        <!-- <p>Theme inspired by https://tangerine-hummingbird-1479b6.netlify.app/</p> -->
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
